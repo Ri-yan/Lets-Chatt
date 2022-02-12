@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Lets-Chatt/static/css/main.6c7e3b43.chunk.css",
+    "main.css": "/Lets-Chatt/static/css/main.aa1cdff8.chunk.css",
     "main.js": "/Lets-Chatt/static/js/main.ace8736e.chunk.js",
     "main.js.map": "/Lets-Chatt/static/js/main.ace8736e.chunk.js.map",
     "runtime~main.js": "/Lets-Chatt/static/js/runtime~main.a14007a1.js",
@@ -10,9 +10,9 @@
     "static/js/3.c70b6b5b.chunk.js": "/Lets-Chatt/static/js/3.c70b6b5b.chunk.js",
     "static/js/3.c70b6b5b.chunk.js.map": "/Lets-Chatt/static/js/3.c70b6b5b.chunk.js.map",
     "index.html": "/Lets-Chatt/index.html",
-    "precache-manifest.cba34dc553adf5a7e158fbf1a09cccc8.js": "/Lets-Chatt/precache-manifest.cba34dc553adf5a7e158fbf1a09cccc8.js",
+    "precache-manifest.8f08004798bc11cde786fcd15d77c5f9.js": "/Lets-Chatt/precache-manifest.8f08004798bc11cde786fcd15d77c5f9.js",
     "service-worker.js": "/Lets-Chatt/service-worker.js",
-    "static/css/main.6c7e3b43.chunk.css.map": "/Lets-Chatt/static/css/main.6c7e3b43.chunk.css.map",
+    "static/css/main.aa1cdff8.chunk.css.map": "/Lets-Chatt/static/css/main.aa1cdff8.chunk.css.map",
     "static/media/cross2.svg": "/Lets-Chatt/static/media/cross2.291d4ef7.svg",
     "static/media/person.svg": "/Lets-Chatt/static/media/person.8d9262a1.svg",
     "static/media/search3.svg": "/Lets-Chatt/static/media/search3.08965d50.svg"
