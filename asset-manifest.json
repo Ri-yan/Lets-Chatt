@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Lets-Chatt/static/css/main.d1b05096.chunk.css",
-    "main.js": "/Lets-Chatt/static/js/main.c5818a9e.chunk.js",
-    "main.js.map": "/Lets-Chatt/static/js/main.c5818a9e.chunk.js.map",
+    "main.js": "/Lets-Chatt/static/js/main.68c9c98f.chunk.js",
+    "main.js.map": "/Lets-Chatt/static/js/main.68c9c98f.chunk.js.map",
     "runtime~main.js": "/Lets-Chatt/static/js/runtime~main.9d833b6e.js",
     "runtime~main.js.map": "/Lets-Chatt/static/js/runtime~main.9d833b6e.js.map",
     "static/js/2.6371ef25.chunk.js": "/Lets-Chatt/static/js/2.6371ef25.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0ad1fd9d.chunk.js": "/Lets-Chatt/static/js/3.0ad1fd9d.chunk.js",
     "static/js/3.0ad1fd9d.chunk.js.map": "/Lets-Chatt/static/js/3.0ad1fd9d.chunk.js.map",
     "index.html": "/Lets-Chatt/index.html",
-    "precache-manifest.ead7c9d54db424bfb952f486bce2a01b.js": "/Lets-Chatt/precache-manifest.ead7c9d54db424bfb952f486bce2a01b.js",
+    "precache-manifest.ff4c4b56357dc6cf21f8c754f7b13d11.js": "/Lets-Chatt/precache-manifest.ff4c4b56357dc6cf21f8c754f7b13d11.js",
     "service-worker.js": "/Lets-Chatt/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/Lets-Chatt/static/css/main.d1b05096.chunk.css.map"
   }
