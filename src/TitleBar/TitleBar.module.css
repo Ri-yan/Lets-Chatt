@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+a{
+    text-decoration: none;
+    color: white;
+}
+.Titlebar{
+    background: black;
+    color: white;
+    height: 5.5em;
+    width: -webkit-fill-available;
+    display: block;
+    align-items: center;
+}
+.title{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    float: left;
+    transform: translate(38px, 30px);
+    cursor: pointer;
+    filter: invert(43%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+
+}
+.search{
+    height: 25px;
+    width: 25px;
+    float: right;
+    transform: translate(-26px, 26px);
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+}
+.login {
+    height: 30px;
+    width: 30px;
+    float: right;
+    transform: translate(-10px, 24px);
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+}
+.cancel{
+    height: 15px;
+    width: 15px;
+    float: left;
+    transform: translate(-18px, 32px);
+    filter: invert(43%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    transition: all 0.3s linear;
+}
+.cancel_active{
+    height: 15px;
+    width: 15px;
+    float: left;
+    transform: translate(-18px, -32px);
+    filter: invert(43%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    transition: all 0.3s linear;
+}
+.searchbar {
+    padding: 5px 6px;
+    font-size: 0.9em;
+    height: 2.3em;
+    width:-webkit-fill-available;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    margin: 0px 10em 0em 0em;
+    left: 86px;
+    transform: translate(-50px, 23px);
+    transition: all 0.3s linear;
+}
+.active{
+    padding: 5px 6px;
+    font-size: 0.9em;
+    height: 2.3em;
+    width: -webkit-fill-available;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    margin: 0px 7em 0em 0em;
+    left: 86px;
+    transition: all 0.3s linear;
+    transform: translate(-50px, -55px);
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px){
+.Titlebar{
+    background: black;
+    color: white;
+    height: 5.5em;
+    width: -webkit-fill-available;
+    display: block;
+    align-items: center;
+}
+.title{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    float: left;
+    transform: translate(38px, 29px);
+    cursor: pointer;
+}
+.search{
+    height: 25px;
+    width: 25px;
+    float: right;
+    transform: translate(-20px, 26px);
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+}
+.cancel{
+    height: 15px;
+    width: 15px;
+    float: left;
+    transform: translate(-18px, 32px);
+    filter: invert(43%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    transition: all 0.3s linear;
+}
+.cancel_active{
+    height: 15px;
+    width: 15px;
+    float: left;
+    transform: translate(-18px, -32px);
+    filter: invert(43%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    transition: all 0.3s linear;
+}
+.searchbar {
+    padding: 5px 6px;
+    font-size: 0.9em;
+    height: 2.3em;
+    width:-webkit-fill-available;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    margin: 0px 8em 0em 0em;
+    left: 86px;
+    transform: translate(-50px, 23px);
+    transition: all 0.3s linear;
+}
+.active{
+    padding: 5px 6px;
+    font-size: 0.9em;
+    height: 2.3em;
+    width: -webkit-fill-available;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    margin: 0px 7em 0em 0em;
+    left: 86px;
+    transition: all 0.3s linear;
+    transform: translate(-50px, -55px);
+    overflow: hidden;
+}
+}

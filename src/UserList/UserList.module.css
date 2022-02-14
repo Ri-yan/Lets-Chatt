@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: black;
+  }
+.userlist{
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    height: 100vh;
+    overflow: scroll;
+}
+
+
+@media only screen and (max-width: 768px){
+    
+}

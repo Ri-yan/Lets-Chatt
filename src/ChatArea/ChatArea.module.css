@@ -1,0 +1,137 @@
+a{
+    text-decoration: none;
+    color: black;
+  }
+  h1{
+      height: 200vh;
+  }
+ .typing_area{
+     position: sticky;
+     bottom: 0px;
+     padding: 18px 30px;
+     display: flex;
+     justify-content: center;
+     width: -webkit-fill-available;
+ } 
+ .typing_area input{
+    height: 45px;
+    width: calc(100%-58px);
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: -webkit-fill-available;
+
+ } 
+ .typing_area button{
+    width: 60px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 19px;
+    cursor: pointer;
+    margin: 0px 5px;
+ }
+ .typing_area img{
+    height: 25px;
+    width: auto;
+    cursor: pointer;
+    margin: 0px 5px;
+ }
+.Login{
+    display: flex;
+    margin: auto;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: #ffffff;
+    margin-top: 51px;
+    flex-direction: column;
+    flex-direction: column;
+    border:none;
+    padding: 20px 5px;
+    box-shadow: 0 0 128px 0 rgb(0 0 0 / 10%), 0 32px 64px -48px rgb(0 0 0 / 50%);
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 5px;
+    background: white;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 20px 20px 0px 0px;
+}
+.section{
+    padding: 15px 25px;
+    border-top: 2px solid #0000001f;
+}
+.error_tab{
+    border: 1px solid #ff000080;
+    background: #ff000038;
+    margin: 4px 10px;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: medium;
+    font-weight: 400;
+    color: #b80000;
+    margin-bottom: 10px;
+    display: none;
+}
+.nametab{
+    display: flex;
+}
+.inputlable{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.input{
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.1px solid #00000024;
+    margin: 4px;
+    font-size: medium;
+    width: -webkit-fill-available;
+    outline: none;
+}
+.submitbutton{
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px;
+    border: none;
+    width: -webkit-fill-available;
+    cursor: pointer;
+}
+label{
+    margin-left: 6px;
+    font-size: medium;
+    font-weight: 500;
+}
+span{
+    cursor: pointer;
+}
+.eye{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: translate(5px, 37px);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .nametab{
+        flex-direction: column;
+    }
+    .Login{
+        width: -webkit-fill-available;
+        margin: 8px;
+        height: fit-content;
+    }
+}

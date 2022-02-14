@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.ChatTitle{
+    background: black;
+    color: white;
+    height: 5.5em;
+    width: -webkit-fill-available;
+    display: block;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.title{
+    display: flex;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    float: left;
+    transform: translate(70px, 20px);
+    cursor: pointer;
+}
+.title .back {
+    position: absolute;
+    left: 0px;
+    transform: translate(-44px, 6px);
+    height: 38px;
+    width: 35px;
+    border-radius: 60%;
+    object-fit: cover;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+.title .profile {
+    height: 45px;
+    width: 45px;
+    border-radius: 60%;
+    object-fit: cover;
+    border: 2px solid #00ee00;
+
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: medium;
+    margin-left: 20px;
+    padding-top: 15px;
+    line-height: 0.2;
+}
+.detail span{
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.detail p{
+    font-size: medium;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media only screen and (max-width: 768px){
+.ChatTitle{
+    background: black;
+    color: white;
+    height: 5.5em;
+    width: -webkit-fill-available;
+    display: block;
+    align-items: center;
+}
+.title{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    float: left;
+    transform: translate(50px, 20px);
+    cursor: pointer;
+}
+
+}
