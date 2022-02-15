@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Lets-Chatt/static/css/main.493eceb5.css",
-    "main.js": "/Lets-Chatt/static/js/main.3b1db1dd.js",
+    "main.css": "/Lets-Chatt/static/css/main.59b45ddb.css",
+    "main.js": "/Lets-Chatt/static/js/main.3028761f.js",
     "static/js/787.2b658626.chunk.js": "/Lets-Chatt/static/js/787.2b658626.chunk.js",
+    "static/media/bg.jpg": "/Lets-Chatt/static/media/bg.4aa8a6b0aa4de70869e6.jpg",
     "static/media/profile_img.png": "/Lets-Chatt/static/media/profile_img.8973ad91ff3039f96c89.png",
     "static/media/search3.svg": "/Lets-Chatt/static/media/search3.206728091cf0f27f577bc8ea06613cad.svg",
     "static/media/person.svg": "/Lets-Chatt/static/media/person.88a4019b0b246d70743a19fb3fe6def2.svg",
@@ -10,12 +11,12 @@
     "static/media/cross2.svg": "/Lets-Chatt/static/media/cross2.5695377669b89e0579583bf3bbfde8e5.svg",
     "index.html": "/Lets-Chatt/index.html",
     "static/media/arrow-left.svg": "/Lets-Chatt/static/media/arrow-left.5e212754bb16f77154eb91b1e708a2be.svg",
-    "main.493eceb5.css.map": "/Lets-Chatt/static/css/main.493eceb5.css.map",
-    "main.3b1db1dd.js.map": "/Lets-Chatt/static/js/main.3b1db1dd.js.map",
+    "main.59b45ddb.css.map": "/Lets-Chatt/static/css/main.59b45ddb.css.map",
+    "main.3028761f.js.map": "/Lets-Chatt/static/js/main.3028761f.js.map",
     "787.2b658626.chunk.js.map": "/Lets-Chatt/static/js/787.2b658626.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.493eceb5.css",
-    "static/js/main.3b1db1dd.js"
+    "static/css/main.59b45ddb.css",
+    "static/js/main.3028761f.js"
   ]
 }
