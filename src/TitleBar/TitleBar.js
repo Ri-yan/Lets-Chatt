@@ -13,14 +13,33 @@ const Titlebar=()=>{
         else
         setshowbar(false);
     }
+
+    const [query,setQuery]=useState('');
+    const [loading,setLoading]=useState(true);
+    const getChannels=async(text)=>{
+        try {
+            //
+        } catch (error) {
+            setQuery('')
+        }
+    }
+    const onSearch=(event)=>{
+        event.preventDefault();
+        setLoading(true);
+        setQuery(event.target.value);
+        getChannels(event.target.value);
+    }
+
     return(
         <div className={T.Titlebar}>
-           <Link to='/chatt/'> <div className={T.title}>
+           <Link to='/Lets-Chatt/'> <div className={T.title}>
             Let's Chatt
             </div></Link>
             <img onClick={()=>ShowBar()} className={showbar?`${T.cancel}`:`${T.cancel_active}`} src={cross} alt="" />
-            <input placeholder='search for contacts' className={showbar?`${T.searchbar}`:`${T.active}`} type="search" />
-            <Link to='/chatt/login'><img className={T.login} src={person} alt="" /></Link>
+            <input value={query}
+            onChange={onSearch}
+             placeholder='search for contacts' className={showbar?`${T.searchbar}`:`${T.active}`} type="search" />
+            <Link to='/Lets-Chatt/login'><img className={T.login} src={person} alt="" /></Link>
             <img onClick={()=>ShowBar()} className={T.search} src={icon} alt="" />
         </div>
     );

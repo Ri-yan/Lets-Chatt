@@ -6,7 +6,7 @@ const ChatTitle=()=>{
     return(
         <div className={CT.ChatTitle}>
             <div className={CT.title}>
-            <Link to='/chatt/chats'><img className={CT.back} src={arrow} alt="back" /></Link>
+            <Link to='/Lets-Chatt/chats'><img className={CT.back} src={arrow} alt="back" /></Link>
                <img className={CT.profile} src={profile} alt="profileimg" />
                <div className={CT.detail}>
                    <span>User Name</span>

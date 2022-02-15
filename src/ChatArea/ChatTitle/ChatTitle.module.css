@@ -10,6 +10,10 @@
     position: sticky;
     top: 0px;
 }
+.ChatTitle a{
+    text-decoration: none;
+    color: white;
+}
 .title{
     display: flex;
     color: white;
@@ -74,5 +78,9 @@
     transform: translate(50px, 20px);
     cursor: pointer;
 }
-
+.title .back {
+    transform: translate(-40px, 10px);
+    height: 30px;
+    width: 30px;
+    }
 }

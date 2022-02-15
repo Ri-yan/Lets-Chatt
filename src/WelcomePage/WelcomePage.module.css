@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.WelcomePage{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: -webkit-fill-available;
+    align-items: center;
+    justify-content: center;
+    background: url('../Png/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+.WelcomePage h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: xx-large;
+    backdrop-filter: blur(2px);
+    /* padding-bottom: 50px; */
+}
+.WelcomePage .input{
+    background: black;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px;background: black;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: larger;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+    .WelcomePage h1{
+        font-size: larger;
+        padding: 11px;
+        border: none;
+        border-radius: 10px;
+    }
+    .WelcomePage .input{
+        font-size: medium;
+    }
+}

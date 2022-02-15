@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-
 .Titlebar{
     background: black;
     color: white;
@@ -7,8 +6,6 @@
     width: -webkit-fill-available;
     display: block;
     align-items: center;
-    position: sticky;
-    top: -0.1px;
 }
 .Titlebar a{
     text-decoration: none;

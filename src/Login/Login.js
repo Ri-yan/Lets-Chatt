@@ -4,36 +4,30 @@ import { Link} from "react-router-dom";
 // import eye from '../Icons/eye.svg';
 
 const Login=()=>{
+   const onClickButton=(event)=> {
+        event.preventDefault();
+      }
     return(
-        <div className={L.Login}>
+        <form onSubmit={onClickButton} className={L.Login}>
             <div className={L.title}>
-                Let's Chatt Register
+            <Link to='/Lets-Chatt/chats'>
+                Let's Chatt Login
+            </Link>
             </div>
             <div className={L.section}>
-            <div className={L.error_tab}>This is an error message</div>
-            <div className={L.nametab}>
-                <div className={L.inputlable}>
-                    <label htmlFor="">First Name</label>
-                    <input className={L.input} type="text" placeholder='First name'/>
-                </div>
-                <div className={L.inputlable}>
-                    <label htmlFor="">Last Name</label>
-                    <input className={L.input} type="text" placeholder='Last name'/>
-                </div>
+            <div className={L.inputlable}>
+                <label htmlFor="">Email Address</label>
+                <input  className={L.input} type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder='Enter your email'/>
             </div>
             <div className={L.inputlable}>
-                <label htmlFor="">Enter Email</label>
-                <input className={L.input} type="text" placeholder='Email'/>
+                <label htmlFor="">Password</label>
+                <input className={L.input} type="password" required placeholder='Enter your password'/>
             </div>
-            <div className={L.inputlable}>
-                <label htmlFor="">Enter Password</label>
-                <input className={L.input} type="password" placeholder='Password'/>
-               {/* <img  className={L.eye} src={eye} alt="" /> */}
-            </div>
-            <Link to='/chatt/chats'><input className={L.submitbutton} type="submit" value='Continue to Chatt'/></Link>
-            <label htmlFor="">Already a member?  <Link to='/chatt/register'><span>   Login</span></Link></label>
+                <input className={L.submitbutton} type="submit" value='Continue to Chatt'/>
+            <label htmlFor="">Not Yet signed up? <span><Link to='/Lets-Chatt/register'> Signup now</Link></span></label>
         </div>
-        </div>
+        </form>
+        
     );
 }
 export default Login;

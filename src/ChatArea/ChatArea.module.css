@@ -1,10 +1,6 @@
-a{
-    text-decoration: none;
-    color: black;
-  }
-  h1{
-      height: 200vh;
-  }
+
+
+  
  .typing_area{
      position: sticky;
      bottom: 0px;
@@ -12,7 +8,13 @@ a{
      display: flex;
      justify-content: center;
      width: -webkit-fill-available;
+     background: url('../Png/chatBG.png');
+
  } 
+ .typing_area a{
+    text-decoration: none;
+    color: black;
+  }
  .typing_area input{
     height: 45px;
     width: calc(100%-58px);
@@ -39,6 +41,11 @@ a{
     cursor: pointer;
     margin: 0px 5px;
  }
+.typing_area h1{
+    font-size: x-large;
+    margin: 15px 15px;
+    font-weight: 400;
+}
 .Login{
     display: flex;
     margin: auto;
@@ -124,7 +131,14 @@ span{
     transform: translate(5px, 37px);
     cursor: pointer;
 }
-
+.chats{
+    height: 100vh;
+    overflow: visible;
+    background: url('../Png/chatBG.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain
+}
 @media only screen and (max-width: 768px){
     .nametab{
         flex-direction: column;

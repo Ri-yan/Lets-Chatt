@@ -8,7 +8,7 @@ const ChatArea=()=>{
     return(
         <div className={CA.ChatArea}>
             <ChatTitle/>
-            <h1> chats will we there</h1>
+            <div className={CA.chats}> chats will we there</div>
             <form action="#" className={CA.typing_area}>
                 <input type="text" placeholder='Type message here..' />
                 <button><img src={send} alt="" /></button>
