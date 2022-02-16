@@ -7,7 +7,7 @@
     width: -webkit-fill-available;
     align-items: center;
     justify-content: center;
-    background: url('../Png/bg.jpg');
+    background: url('../../Png/bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain

@@ -1,7 +1,7 @@
 import React from 'react';
 import Us from './User.module.css';
 // import { Link} from "react-router-dom";
-import Pimg from '../Png/profile_img.png';
+import Pimg from '../../Png/profile_img.png';
 
 const User=()=>{
     return(

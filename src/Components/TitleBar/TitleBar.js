@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import T from './TitleBar.module.css';
-import icon from '../Icons/search3.svg'
-import cross from '../Icons/cross2.svg'
-import person from '../Icons/person.svg'
+import icon from '../../Icons/search3.svg'
+import cross from '../../Icons/cross2.svg'
+import person from '../../Icons/person.svg'
 import { Link} from "react-router-dom";
 
 const Titlebar=()=>{

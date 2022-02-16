@@ -1,7 +1,7 @@
 import React from 'react';
 import CA from './ChatArea.module.css';
 import ChatTitle from './ChatTitle/ChatTitle';
-import send from '../Icons/send.svg'
+import send from '../../Icons/send.svg'
 // import { CAink} from "react-router-dom";
 
 const ChatArea=()=>{

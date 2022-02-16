@@ -1,7 +1,8 @@
-import CT from './ChatTitle.module.css';
-import arrow from '../../Icons/arrow-left.svg'
 import { Link} from "react-router-dom";
-import profile from '../../Png/profile_img.png';
+import CT from './ChatTitle.module.css';
+import arrow from '../../../Icons/arrow-left.svg'
+import profile from '../../../Png/profile_img.png';
+
 const ChatTitle=()=>{
     return(
         <div className={CT.ChatTitle}>
