@@ -1,0 +1,19 @@
+.channel-nav{
+    display: flex;
+    width: -webkit-fill-available;
+    align-items: center;
+    justify-content: space-around;
+}
+.channel-nav p{
+    display: inherit;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 2px;
+    width: -webkit-fill-available;
+    cursor: pointer;
+}
+.channel-list__container{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}

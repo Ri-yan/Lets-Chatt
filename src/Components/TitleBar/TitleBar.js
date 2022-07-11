@@ -3,8 +3,10 @@ import T from './TitleBar.module.css';
 import icon from '../../Icons/search3.svg'
 import cross from '../../Icons/cross2.svg'
 import person from '../../Icons/person.svg'
-import { Link} from "react-router-dom";
-
+import { useChatContext } from 'stream-chat-react';
+import Cookies from 'universal-cookie';
+// import { Link} from "react-router-dom";
+const cookies= new Cookies;
 const Titlebar=()=>{
     const [showbar,setshowbar]=useState(false);
     const ShowBar=()=>{
@@ -29,17 +31,27 @@ const Titlebar=()=>{
         setQuery(event.target.value);
         getChannels(event.target.value);
     }
-
+    const logout=()=>{
+        cookies.remove('token');        
+        cookies.remove('userId');
+        cookies.remove('f_name');
+        cookies.remove('l_name');
+        cookies.remove('email');
+        cookies.remove('hashedPassword');
+        
+        window.location.reload();
+    }
     return(
+        
         <div className={T.Titlebar}>
-           <Link to='/Lets-Chatt/'> <div className={T.title}>
+           <div className={T.title}>
             Let's Chatt
-            </div></Link>
+            </div>
             <img onClick={()=>ShowBar()} className={showbar?`${T.cancel}`:`${T.cancel_active}`} src={cross} alt="" />
             <input value={query}
             onChange={onSearch}
              placeholder='search for contacts' className={showbar?`${T.searchbar}`:`${T.active}`} type="search" />
-            <Link to='/Lets-Chatt/login'><img className={T.login} src={person} alt="" /></Link>
+            <img onClick={()=>logout()} className={T.login} src={person} alt="" />
             <img onClick={()=>ShowBar()} className={T.search} src={icon} alt="" />
         </div>
     );

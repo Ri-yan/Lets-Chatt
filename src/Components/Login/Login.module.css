@@ -87,7 +87,10 @@ span{
     transform: translate(5px, 37px);
     cursor: pointer;
 }
-
+.labelfooter{
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (max-width: 768px){
     .nametab{
         flex-direction: column;
